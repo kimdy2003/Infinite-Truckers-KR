@@ -389,4 +389,4 @@ async def Youtuber(ctx):
 
         await message.clear_reactions()
 
-bot.run('Njk1NTg2MjA2OTM0NjMwNDQx.XocVmg.NDjTWuKVyKrbxKjxg-xXzjWjSkE')
+bot.run('')
