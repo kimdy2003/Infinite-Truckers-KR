@@ -3,9 +3,6 @@ import os
 from discord.ext import commands, tasks
 from itertools import cycle
 
-import general_settings
-Setting = general_settings.Settings()
-
 prefix = 'i/'
 bot = commands.Bot(command_prefix = prefix)
 
