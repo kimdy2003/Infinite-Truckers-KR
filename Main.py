@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands, tasks
 from itertools import cycle
 
@@ -250,4 +251,5 @@ async def Youtuber(ctx):
         await message.clear_reactions()
 
 
-bot.run(Setting.token)
+access_token = os.environ["BOT_TOKEN"]
+bot.run(access_toke)
