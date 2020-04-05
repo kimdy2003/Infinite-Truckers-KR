@@ -1,1 +1,1 @@
-woker: python Bot.py
+woker: python bot.py
