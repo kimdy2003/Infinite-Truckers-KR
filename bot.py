@@ -389,4 +389,5 @@ async def Youtuber(ctx):
 
         await message.clear_reactions()
 
-bot.run('')
+access_token = os.environ["BOT_TOKEN"]        
+bot.run(access_token)
